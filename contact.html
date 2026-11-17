@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estimare — AX Construct</title>
+  <meta name="description" content="Cere o estimare AX Construct pentru o casă, o renovare sau un spațiu comercial. Răspuns în una-două zile lucrătoare.">
+  <link rel="canonical" href="https://axconstruct.md/contact.html">
+  <meta property="og:title" content="Estimare — AX Construct">
+  <meta property="og:description" content="Spune-ne despre lucrare. Revenim cu o încadrare.">
+  <meta property="og:image" content="https://axconstruct.md/assets/og.jpg">
+  <meta name="theme-color" content="#f7f4ee">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#continut">Sari la conținut</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-black.png" alt="AX" width="1024" height="525">
+      <span>Construct</span>
+    </a>
+    <nav class="desk-nav" aria-label="Principal">
+      <a href="servicii.html">Servicii</a>
+      <a href="lucrari.html">Lucrări</a>
+      <a href="despre.html">Despre</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="head-phone" data-href="phoneTel" hidden></a>
+      <a class="btn btn-small" href="#formular">Estimare</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Deschide meniul"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="nav-panel" id="menu" hidden>
+    <nav aria-label="Mobil">
+      <a href="index.html">Acasă</a>
+      <a href="servicii.html">Servicii</a>
+      <a href="lucrari.html">Lucrări</a>
+      <a href="despre.html">Despre</a>
+      <a href="contact.html">Contact</a>
+      <a href="#formular">Cere o estimare</a>
+    </nav>
+  </div>
+
+  <main id="continut">
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="kicker">Contact</p>
+        <h1>Spune-ne despre lucrare.</h1>
+        <p class="lede">Câteva detalii ajung pentru o primă încadrare. Devizul îl facem după ce vedem locul sau proiectul.</p>
+      </div>
+    </header>
+
+    <section class="section" id="formular" style="padding-top:12px">
+      <div class="wrap contact-grid">
+        <div>
+          <div class="contact-photo">
+            <img src="assets/photos/house-wood.jpg" alt="Casă cu lemn și negru, vedere din curte" loading="lazy">
+          </div>
+          <h2 class="block-title" style="font-size:2rem;margin-bottom:12px">Ce se întâmplă după</h2>
+          <div class="principles">
+            <article>
+              <h3>1. Răspuns</h3>
+              <p>În una-două zile lucrătoare, cu întrebările care lipsesc sau cu o încadrare.</p>
+            </article>
+            <article>
+              <h3>2. Locul</h3>
+              <p>Stabilim o vizită sau ne trimiți proiectul și pozele.</p>
+            </article>
+            <article>
+              <h3>3. Deviz</h3>
+              <p>Primești capitolele și un grafic. Apoi decizi liniștit.</p>
+            </article>
+          </div>
+          <div class="contact-list" style="margin-top:22px">
+            <p><a data-href="email" href="mailto:office@axconstruct.md">office@axconstruct.md</a></p>
+            <p><a data-href="phoneTel" hidden></a></p>
+            <p><a data-href="whatsapp" hidden>Scrie pe WhatsApp</a></p>
+            <p data-bind="hours">Luni–vineri · 08:00–18:00</p>
+            <p data-bind="city">Chișinău, Republica Moldova</p>
+          </div>
+        </div>
+
+        <div>
+          <form id="estimare" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="nume">Nume <span aria-hidden="true">*</span></label>
+                <input id="nume" name="nume" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="telefon">Telefon <span aria-hidden="true">*</span></label>
+                <input id="telefon" name="telefon" type="tel" autocomplete="tel" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email">
+              </div>
+              <div class="field">
+                <label for="localitate">Localitatea lucrării</label>
+                <input id="localitate" name="localitate" autocomplete="address-level2">
+              </div>
+              <div class="field">
+                <label for="tip">Tip lucrare <span aria-hidden="true">*</span></label>
+                <select id="tip" name="tip" required>
+                  <option value="">Alege</option>
+                  <option value="case">Casă la cheie</option>
+                  <option value="renovare">Renovare</option>
+                  <option value="comercial">Spațiu comercial</option>
+                  <option value="acoperis">Acoperiș și fațadă</option>
+                  <option value="altceva">Altceva</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="stadiu">Unde ești acum</label>
+                <select id="stadiu" name="stadiu">
+                  <option value="">Alege</option>
+                  <option>Am teren</option>
+                  <option>Am proiect</option>
+                  <option>Am autorizație</option>
+                  <option>Renovez un spațiu existent</option>
+                  <option>Am doar ideea</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="suprafata">Suprafață aproximativă</label>
+                <input id="suprafata" name="suprafata" placeholder="ex. 120 mp">
+              </div>
+              <div class="field">
+                <label for="cand">Când ai vrea să începi</label>
+                <select id="cand" name="cand">
+                  <option value="">Alege</option>
+                  <option>Cât de curând</option>
+                  <option>În 1–3 luni</option>
+                  <option>În acest an</option>
+                  <option>Vreau doar o estimare</option>
+                </select>
+              </div>
+              <div class="field span-2">
+                <label for="mesaj">Ce vrei să obții</label>
+                <textarea id="mesaj" name="mesaj" placeholder="Câte camere, ce te deranjează acum, ce trebuie să rămână."></textarea>
+              </div>
+              <div class="hp" aria-hidden="true">
+                <label for="gotcha">Lasă gol</label>
+                <input id="gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn" type="submit">Trimite cererea</button>
+              <p class="fine">Răspundem în una-două zile lucrătoare.</p>
+            </div>
+          </form>
+
+          <div id="form-success" hidden>
+            <h2 id="success-title" class="block-title" style="font-size:2.4rem">Mesajul e pregătit.</h2>
+            <p class="lede" id="success-lead" style="margin:12px 0 8px"></p>
+            <pre class="letter" id="letter"></pre>
+            <div class="form-actions">
+              <a class="btn" id="open-mail" href="mailto:office@axconstruct.md">Deschide emailul</a>
+              <button class="btn btn-ghost" id="copy-letter" type="button">Copiază textul</button>
+              <a class="btn btn-ghost" id="open-wa" hidden>WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/logo-white.png" alt="AX" width="1024" height="525">
+          <span>Construct</span>
+        </a>
+        <p class="footer-lead">Case, renovări și spații comerciale. Deviz clar, termen scris.</p>
+      </div>
+      <div>
+        <p class="kicker">Pagini</p>
+        <a href="servicii.html">Servicii</a>
+        <a href="lucrari.html">Lucrări</a>
+        <a href="despre.html">Despre</a>
+        <a href="contact.html">Estimare</a>
+      </div>
+      <div>
+        <p class="kicker">Contact</p>
+        <a data-href="email" href="mailto:office@axconstruct.md">office@axconstruct.md</a>
+        <a data-href="phoneTel" hidden></a>
+        <a data-href="whatsapp" hidden>WhatsApp</a>
+        <p data-bind="hours">Luni–vineri · 08:00–18:00</p>
+        <p data-bind="city">Chișinău, Republica Moldova</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>© <span data-year>2026</span> AX Construct</span>
+      <span>axconstruct.md</span>
+      <p class="legal" data-legal hidden></p>
+    </div>
+  </footer>
+  <a class="mobile-bar" href="#formular">Cere o estimare</a>
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
